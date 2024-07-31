@@ -91,14 +91,7 @@ class LikeSuccessResponse(BaseModel):
     status_code: int = 201
     message: str 
     success: bool = True
-<<<<<<< HEAD
-
-    data: CommentDislike
-
-    data: CommentDislike
-=======
     data: CommentLike
->>>>>>> 17901b0557a01282d48539c095d3f7332d9e304d
 
 class CommentLike(BaseModel):
     id: str
